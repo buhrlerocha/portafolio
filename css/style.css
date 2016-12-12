@@ -1,0 +1,200 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+.light{
+  text-align: center;
+  font-size: 22px;
+}
+.foto-perfil{
+  width: 100%;
+  margin-top:100px;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+.foto-perfil:hover{
+  -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5)
+}
+
+.box{
+  margin-top:60px;
+}
+.texto-paulina{
+  font-size: 100px;
+  color: black;
+}
+.sobre{
+  font-size: 40px;
+}
+.habilidades{
+  text-align: center;
+}
+p, h1, h5, span, a{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.collapsible-header{
+  background-color: black;
+}
+.monitos{
+  color: white;
+}
+.span{
+  color:#1376F0;
+  font-size: 23px;
+}
+.publicista{
+  font-size: 30px;
+}
+.pasatiempos{
+  display: inline-block;
+  margin: 30px;
+  text-align: center;
+}
+.cuadrado{
+  text-align: center;
+}
+.pau{
+  font-size: 30px;
+  color:#1376F0;
+}
+.paulina{
+  color:#1376F0;
+  padding: 10px;
+  margin-bottom: 0px;
+  font-size: 80px;
+
+}
+em{
+  background-color: rgba(0, 0, 0, .5);
+  padding: 10px;
+  border-radius: 5px;
+}
+.monos{
+  font-size: 22px;
+}
+.menu{
+  font-size: 22px;
+}
+.carousel{
+  text-align: center;
+}
+.trabajos{
+  font-size: 40px;
+  color:#1376F0;
+}
+.fototrabajo{
+  
+  height: 170px;
+}
+.logo{
+  width: 150px;
+}
+nav{
+  height: 90px;
+}
+.footer{
+  background-color:#1376F0;
+}
+.fono{
+  font-size: 20px;
+}
+.twiter{
+  font-size: 100px;
+  color:white;
+  margin-top: 40px;
+}
+
+   .logo:hover{
+    -webkit-transform: scale(2.5);
+    -moz-transform: scale(2.5);
+    -o-transform: scale(2.5);
+    -ms-transform: scale(2.5);
+    transform: scale(2.5)
+}
+.premio{
+  width: 100px;
+  text-align: center;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+   .premio:hover{
+    -webkit-transform: scale(5);
+    -moz-transform: scale(5);
+    -o-transform: scale(5);
+    -ms-transform: scale(5);
+    transform: scale(5)
+}
+.side-nav{
+  width: 90px;
+}
+.diploma{
+  width: 100px;
+  text-align: center;
+  border-radius: 5px;
+  border: 2px solid black;
+  margin: 10px;
+}
+.diploma:hover{
+    -webkit-transform: scale(5.5);
+    -moz-transform: scale(5.5);
+    -o-transform: scale(5.5);
+    -ms-transform: scale(5.5);
+    transform: scale(5.5)
